@@ -10,13 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -50,11 +44,14 @@
             </p>
             <button type="button" class="main-btn">Order Now</button>
           </div>
-          <img src="./img/hero.png" alt="salad" width="528" height="528" />
+          <div class="hero-img-wrap">
+          <img src="./img/hero.png" alt="salad" width="528" height="528" /></div>
         </div>
       </section>
       <section class="about">
+        <div class="container ">
         <img src="./img/aple.png" alt="apple" width="396" height="502" />
+        <div class="about-text-wrap">
         <h2 class="about-title">What’s Special About Our Offerings</h2>
         <p class="about-description">
           With our platform, you can browse through a diverse selection of
@@ -63,9 +60,11 @@
         </p>
         <ul class="about-list">
           <li class="about-item">
+            <span class="about-icon-wrap">
             <svg class="about-icon" width="32" height="32">
               <use href="./img/icons.svg#icon-rocket"></use>
             </svg>
+          </span>
             <h3 class="about-sub-title">Fasest Delivery</h3>
             <p class="about-text">
               Our advanced logistics system and dedicated delivery partners
@@ -73,9 +72,11 @@
             </p>
           </li>
           <li class="about-item">
+            <span class="about-icon-wrap">
             <svg class="about-icon" width="32" height="32">
               <use href="./img/icons.svg#icon-touch_app"></use>
             </svg>
+            </span>
             <h3 class="about-sub-title">Easy To Order</h3>
             <p class="about-text">
               You can browse through a wide variety of cuisines and restaurants,
@@ -85,32 +86,37 @@
           </li>
         </ul>
         <button type="button" class="main-btn about-button">Order Now</button>
+      </div>
+      </div>
       </section>
       <section class="favorite">
+        <div class="container">
         <h2 class="favorite-title">Some of Our Favorites</h2>
         <p class="favorite-text">Looking for something delicious?</p>
         <ul class="favorite-list">
           <li class="favorite-item">
-            <img src="./img/food-delivery/gamburger.png" alt="gamburger" />
+            <img src="./img/food-delivery/gamburger.png" width="315" height="315" alt="gamburger" />
           </li>
           <li class="favorite-item">
-            <img src="./img/food-delivery/Pasta.png" alt="" />
+            <img src="./img/food-delivery/Pasta.png" width="315" height="315" alt="" />
           </li>
           <li class="favorite-item">
-            <img src="./img/food-delivery/pizza.png" alt="" />
+            <img src="./img/food-delivery/pizza.png" width="315" height="315" alt="" />
           </li>
           <li class="favorite-item">
-            <img src="./img/food-delivery/chicken.png" alt="" />
+            <img src="./img/food-delivery/chicken.png" width="315" height="315" alt="" />
           </li>
           <li class="favorite-item">
-            <img src="./img/food-delivery/salat.png" alt="" />
+            <img src="./img/food-delivery/salat.png" width="315" height="315" alt="" />
           </li>
           <li class="favorite-item">
-            <img src="./img/food-delivery/borshch.png" alt="" />
+            <img src="./img/food-delivery/borshch.png" width="315" height="315" alt="" />
           </li>
         </ul>
+      </div>
       </section>
       <section class="customers">
+        <div class="container">
         <h2 class="customers-title">What our Customers Say</h2>
         <p class="customers-descr">
           Don't just take our word for it - see what our satisfied customers
@@ -150,9 +156,13 @@
               options to choose from too, I would recommend to a freind, No
               questions asked”
             </p>
+            <div class="customers-wraper">
             <img src="./img/comment-1.png" alt="customer-comment-1" />
+            <div class="customers-text-wraper">
             <h3 class="customers-name">Sumith Shah</h3>
             <p class="customer-description">Some Dude</p>
+          </div>
+          </div>
           </li>
           <li class="customers-item">
             <ul class="customers-icon-list">
@@ -187,11 +197,17 @@
               amazing, It has been a very pleasant experience ordering from this
               app”
             </p>
-            <img src="./img/comment-2.png" alt="customer-comment-2" />
-            <h3 class="customers-name">Sumith Shah</h3>
-            <p class="customer-description">Some Dude</p>
+            <div class="customers-wraper">
+              <img src="./img/comment-2.png" alt="customer-comment-1" />
+              <div class="customers-text-wraper">
+              <h3 class="customers-name">Sumith Shah</h3>
+              <p class="customer-description">Some Dude</p>
+            </div>
+            </div>
+          
           </li>
         </ul>
+      </div>
       </section>
       <section class="subscribe">
         <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
